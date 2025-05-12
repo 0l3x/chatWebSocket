@@ -1,4 +1,4 @@
-let socket = io('https://olexanderg.net');
+let socket = io('https://chat.olexanderg.net');
 
 socket.on('conectado', function () {
     document.getElementById('formulario').style.display = "";
