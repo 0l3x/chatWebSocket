@@ -1,4 +1,4 @@
-let socket = io('http://localhost:10000');
+let socket = io('https://olexanderg.net');
 
 socket.on('conectado', function () {
     document.getElementById('formulario').style.display = "";

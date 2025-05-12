@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-server.listen(10000);
+server.listen('https://olexanderg.net');
 
 io.on('connection', (socket) => {
     socket.emit('conectado');
